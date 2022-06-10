@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: azure;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 7px;
+}
+main {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px;
+}
+article {
+    background: white;
+    box-shadow: 2px 2px 10px silver;
+    max-width: 450px;
+    margin: 0 auto;
+    padding: 40px 10px;
+}
+.title {
+    margin: 30px;
+}
+#user {
+    font-weight: 900;
+    font-size: 2rem;
+}
+.line {
+    width: 80px;
+    height: 3px;
+    background: steelblue;
+    margin:10px auto;
+}
+#person-img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    box-shadow: 0px 0px  5px grey;;
+}
+#author {
+    font-size: 1.2rem;
+    font-weight: 900;
+    margin: 10px 0;
+}
+#job {
+    color: rgb(0, 170, 212);
+    font-weight: 700;
+    margin: 10px 0;
+}
+#info {
+    padding:20px;
+}
+#left {
+    background: none;
+    padding: 10px;
+    border: 1px solid grey;
+    font-weight: 700;
+    font-size: 1.4rem;
+    margin: 5px;
+}
+#right {
+    background: none;
+    padding: 10px;
+    border: 1px solid grey;
+    font-weight: 700;
+    font-size: 1.4rem;
+    margin: 5px;
+}
+.random-btn {
+    padding: 10px 20px;
+    border: none;
+    background: steelblue;
+    color: white;
+    border-radius: 7px;
+    font-size: 1.1rem;
+    margin: 15px 0 0 0;
+}
